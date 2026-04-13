@@ -1,0 +1,65 @@
+/* NAVBAR PRINCIPAL */
+.navbar-custom {
+  background: linear-gradient(90deg, #0d6efd, #084298);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Links principales */
+.navbar-custom .nav-link {
+  color: #ffffff !important;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  padding: 8px 14px;
+}
+
+/* Hover principal */
+.navbar-custom .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+}
+
+/* Dropdown menú */
+.navbar-custom .dropdown-menu {
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+}
+
+/* Items dropdown */
+.navbar-custom .dropdown-item {
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/* Hover dropdown */
+.navbar-custom .dropdown-item:hover {
+  background-color: #0d6efd;
+  color: white;
+  padding-left: 20px;
+}
+
+/* Iconos */
+.navbar-custom i {
+  font-size: 1rem;
+}
+
+@media print {
+    body * {
+        visibility: hidden;
+    }
+
+    #areaReporte, #areaReporte * {
+        visibility: visible;
+    }
+
+    #areaReporte {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+}
